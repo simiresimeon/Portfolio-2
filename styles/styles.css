@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #0077B6;
+
+}
+header{
+    margin-top: 20px;
+    width: 100%;
+    position: fixed; /*Make the header content stick to page when scrolling*/
+    padding: 1rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: transparent;
+}
+
+.logo{
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.logo:hover{
+    transform: scale(1.3);
+}
+
+nav a{
+
+    color: white;
+    margin-left: 4rem;
+    transition: 0.3s ease;
+    border-bottom: 2px solid transparent;
+}
+
+nav a:hover,
+nav a.active{
+    color: #e9e9e9;
+    border-bottom: 2px solid #e9e9e9;
+}
+h1{
+    color: #e9e9e9;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.home .home-content h1{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.3;
+    padding-top: 7rem;
+}
+
+span{
+    color: skyblue
+}
+
+.home-content h3{
+    font-size: 4rem;
+    color: #e9e9e9;
+    font-weight:700;
+    margin-bottom: 1rem;
+
+}
+
+.home-img img{
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+
+.home-img img:hover{
+    font-size: 1.8rem;
+    font-weight: 500;
+    transform: scale(1.1);
+}
+
+.social-icons a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 0.2rem solid #e9e9e9;
+    font-size: 1rem;
+    /* gives the icon circular radius*/
+    border-radius: 50%; 
+    margin: 2rem 0.2rem 1rem;
+    transition: 0.3s ease;
+}
+
+.social-icons a:hover{
+    color:#0077B6;
+    transform:scale(1.2);
+}
+
+button{
+    color:#e9e9e9;
+   /* border: 2px solid #e9e9e9;*/
+    padding: 1rem ;
+    margin: rem;
+    font-size: 0.8rem;
+    background-color: black;
+    border-radius: 3rem;
+
+}
+
+button:hover{
+    background-color: gray ;
+}
+
+section{
+    max-width: 100%;
+}
+.about{
+    margin-top: 8rem;
+    background-color:#b6b5b5 ;
+    min-height: 100vh;
+
+}
+
+
+
+
+
+
+
+
+
+
+
