@@ -136,17 +136,17 @@ section{
     margin-top: 8rem;
     background-color:#b6b5b5 ;
     min-height: 100vh;
-
-}
-
-
-
-.about{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
 }
+
+.about-content{
+    padding: 2rem 9%;
+}
+
+
 
 
 
